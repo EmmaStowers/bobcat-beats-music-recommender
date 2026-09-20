@@ -13,4 +13,4 @@ View listening habits, with the app automatically calculating the user's most-li
 The project separates data modeling (Song.java) from application logic (MusicDatabase.java), uses enums to manage song preference states, and applies custom-styled CSS for the JavaFX interface.
 
 Tech stack: Java, JavaFX, CSS
-Built by: Emma Stowers (with a project partner)
+Built by: Emma Stowers and Jasmine Smith
