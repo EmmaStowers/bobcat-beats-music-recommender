@@ -1,0 +1,93 @@
+/*styles.css*/
+/* Emma Stowers and Jasmine 
+  Dr. Phelps/Liu has allowed students to discuss the algorithm 
+  and/or general concepts about the assignment with other students
+   and to receive limited help on specific topics. However, I 
+	assume full responsibility for the content and integrity of 
+	this assignment. I have developed my own solution to this 
+	assigned project. I have not used or copied (by any means) 
+	anotherís work (or portions of it) in order to represent it 
+	as my own including material from the internet. If I used a 
+	common computer, I have remembered to delete the files and 
+	empty the recycle bin. I have destroyed all extra printouts 
+	of my code. I have not shared my code with anyone. I am sole 
+	author of the assignment; however,
+
+I received outside help from the following people:
+
+ ......
+
+These are the websites that I used as reference:
+https://docs.oracle.com/javase
+https://www.w3resource.com/java-exercises/javafx/javafx-styling-and-css-exercise-3.php
+*/
+
+
+//the fx design components for most of the text and diplay boxes is stored here
+#bobcat-label {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6495ED; // Blue text color 
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-background-color: #F0F8FF;
+}
+
+#addNewSongsLabel-label {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+#rateExistingLabel-label {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+#exploreNewSongsLabel-label {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.rateExistingVBox-container {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+.addNewSongsVBox-container {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.exploreNewSongsVBox-container {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.infoDisplayVBox-container {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-background-color: lightgray;
+}
+
+.audioControlVBox-container {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-background-color: lightblue;
+}
+
+.displayBoxesHBox-container {
+    -fx-alignment: center;
+    -fx-pref-height: 100px;
+}
+
+.mainContentHBox-container {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-background-color: white;
+}
