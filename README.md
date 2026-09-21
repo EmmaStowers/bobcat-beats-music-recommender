@@ -12,5 +12,30 @@ View listening habits, with the app automatically calculating the user's most-li
 
 The project separates data modeling (Song.java) from application logic (MusicDatabase.java), uses enums to manage song preference states, and applies custom-styled CSS for the JavaFX interface.
 
+Features
+Add New Songs — Add songs to the database with title, artist, genre, mood, and activity tags. Duplicate entries are automatically detected and blocked.
+Rate Existing Songs — Search for a song and assign it a rating and a liked/disliked/neutral status.
+Explore New Songs — Filter the song database by genre, artist, mood, or activity to get a randomized matching recommendation.
+User Habit Analysis — Automatically calculates and displays the user's most-liked genre and most-liked artist based on rating history.
+Audio Playback — Preview songs directly within the app.
+Custom Styled GUI — Interface styled with CSS for a clean, cohesive look.
+Tech Stack
+Language: Java
+GUI Framework: JavaFX
+Styling: CSS
+Core Concepts: Object-oriented design, enums, collections (ArrayList), custom data modeling
+Project Structure
+bobcat-beats/
+├── src/
+│   ├── MusicBase.java       # Main application entry point & GUI
+│   ├── MusicDatabase.java   # Core logic: add, search, rate, explore, analyze
+│   └── Song.java            # Song data model
+├── assets/
+│   ├── guitar.wav           # Sample audio for playback
+│   └── *.png                # Icons used in the GUI
+├── styles.css                # JavaFX GUI styling
+└── README.md
+
+
 Tech stack: Java, JavaFX, CSS
 Built by: Emma Stowers and Jasmine Smith
